@@ -1,0 +1,60 @@
+.label-input{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Alata', sans-serif;
+}
+
+.input-fields{
+  padding: 20px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 2px;
+  border-radius: 12px;
+  width:100%;
+}
+
+::placeholder{
+    font-size: 15px;
+    font-family: 'Alata', sans-serif;
+}
+
+.expense{
+   width: 100%;
+
+}
+
+.expense-contents{
+    margin:auto;
+    width: 500px;
+}
+
+.add-expense-btn{
+    background-color: black; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    border-color: lack;
+    width: 100%;
+}
+.add-expense-btn:hover{
+    background-color: rgb(59, 56, 56);
+}
+
+@media screen and (max-width:800px) {
+    .expense{
+        width:50%;
+        width:8%;
+    }
+    .expense-contents{
+        margin: auto;
+        width: 250px;
+        padding: 5px;
+    }
+    
+}

@@ -1,0 +1,56 @@
+.cards-row{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20%;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 250px;
+    margin: 30px;
+
+}
+
+.card:hover {
+    box-shadow: 1px 50px 50px 0 rgba(113, 215, 147, 0.2);
+  }
+.contents{
+    padding: 5px 16px;
+}
+.delete-btn{
+    color: white;
+    background-color: black;
+}
+.card-category{
+    color: #4CAF50;
+}
+
+.delete-btn{
+    border-radius: 10px;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.delete-btn:hover{
+    background-color: rgb(59, 56, 56);
+}
+
+@media screen and (max-width:800px) {
+    .cards-row{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        margin: 30px;
+        width: auto;
+    }
+
+
+}
